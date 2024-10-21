@@ -13,38 +13,27 @@ Created by : `Raheem Gordon`, `Serena Morris` and `Dontray Blackwood`
 Command Guide 
 --------
 
-File Operations commands were developed to do the following: `create`, `delete`, `rename`
-
-Examples
-
+File Operations commands were developed to do the following:
 * `create myfile.txt`: Creates a file called myfile.txt.
 * `delete myfile.txt`: Deletes myfile.txt.
 * `rename myfile.txt newfile.txt`: Renames myfile.txt to newfile.txt.
 
-Directory Management were developed to do the following: `make`, `remove`, `change`
-
-Examples
-
+Directory Management were developed to do the following:
 * `make newdir`: Creates a directory called newdir.
 * `remove newdir`: Deletes newdir.
 * `change /path/to/directory`: Changes to directory newdir.
 
-File Access and Permissions: `modify`, `setenv`, `printenv`
-
-Examples
-
+File Access and Permissions: 
 * `modify rwxr-xr-x myfile.txt`: Sets the permissions for myfile.txt.
 * `setenv PATH /usr/bin`: Sets an environment variable PATH.
 * `printenv PATH`: Prints the value of PATH.
+* `print Hello, ${USER}`: Prints the specified text. Supports environment variable substitution (e.g., ${VAR})
 
-Other Commands: `help`, `location`, `list`, `print`,`tree`,`insert`,`append`, `history`, `fresh`, `sort <name|date>`, `exit`, `!!`
-
-Examples
+Other Commands
 
 * `help`: Displays a list of available commands with brief descriptions.
 * `location`: Displays the current working directory (similar to `pwd` in Unix-like systems).
 * `list` : Lists the contents of the current directory.
-* `print Hello, ${USER}`: Prints the specified text. Supports environment variable substitution (e.g., ${VAR})
 * `tree`: Displays the directory structure in a tree-like format.
 * `insert file.txt` : Inserts (overwrites) text into a file. Enter the text line by line, and press Ctrl+D (Unix) or Ctrl+Z (Windows) to save.
 * `append file.txt`:Appends text to a file. Enter the text line by line, and press Ctrl+D (Unix) or Ctrl+Z (Windows) to save.
