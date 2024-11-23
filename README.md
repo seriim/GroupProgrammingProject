@@ -48,15 +48,17 @@ Other Commands
 * `exit`: Used to exit the shell
 
 I/O Redirection and Piping (Not Yet Fully Implemented)
--------------------------------------------------------
+------------------------------------------------------
 This shell includes partial support for I/O redirection (`>`, `<`) and piping (`|`), similar to Unix-based shells. More features will be added in future releases.
 
 
 System Requirements
+-------------------
 * Java 11 or later
 * Operating System: Windows, macOS, or Linux
 
 ### Example Usage
+-----------------
 
 #### File Operations
 ```shell
