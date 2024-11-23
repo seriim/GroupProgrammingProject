@@ -78,12 +78,12 @@ printenv PROJECT_PATH
 list
 remove projects
 ```
-####Searching Files
+#### Searching Files
 ```shell
 search .java
 search file.txt
 ```
-####System Commands and Redirection
+#### System Commands and Redirection
 ```shell
 ### Key Points:
 
