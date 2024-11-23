@@ -10,32 +10,32 @@ This `README` serves as a user guide, providing examples and explanations for ea
 
 Created by: `Raheem Gordon`, `Serena Morris` and `Dontray Blackwood`
 
-Command Guide 
---------
+### Command Guide 
 
-File Operations commands were developed to do the following:
+
+#### File Operations commands were developed to do the following:
 * `create myfile.txt`: Creates a file called myfile.txt.
 * `delete myfile.txt`: Deletes myfile.txt.
 * `rename myfile.txt newfile.txt`: Renames myfile.txt to newfile.txt.
 
-Directory Management were developed to do the following:
+#### Directory Management were developed to do the following:
 * `make newdir`: Creates a directory called newdir.
 * `remove newdir`: Deletes newdir.
 * `change /path/to/directory`: Changes to directory newdir.
 
-File Access and Permissions: 
+#### File Access and Permissions: 
 * `modify rwxr-xr-x myfile.txt`: Sets the permissions for myfile.txt.
 * `setenv PATH /usr/bin`: Sets an environment variable PATH.
 * `printenv PATH`: Prints the value of PATH.
 * `print Hello, ${USER}`: Prints the specified text. Supports environment variable substitution (e.g., ${VAR})
 
-Text Manipulation
+#### Text Manipulation
 * `insert file.txt`: Inserts (overwrites) text into a file. Enter the text line by line, and press Ctrl+D (Unix) or Ctrl+Z (Windows) to save.
 * `append file.txt`:Appends text to a file. Enter the text line by line, and press Ctrl+D (Unix) or Ctrl+Z (Windows) to save.
 * `read file.txt`: Reads and prints the contents of a file.
 
 
-Other Commands
+#### Other Commands
 * `help`: Displays a list of available commands with brief descriptions.
 * `location`: Displays the current working directory (similar to `pwd` in Unix-like systems).
 * `list`: Lists the contents of the current directory.
@@ -47,8 +47,7 @@ Other Commands
 * `!!`: Repeats the last command.
 * `exit`: Used to exit the shell
 
-I/O Redirection and Piping (Not Yet Fully Implemented)
-------------------------------------------------------
+#### I/O Redirection and Piping (Not Yet Fully Implemented)
 This shell includes partial support for I/O redirection (`>`, `<`) and piping (`|`), similar to Unix-based shells. More features will be added in future releases.
 
 
