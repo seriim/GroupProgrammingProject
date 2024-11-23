@@ -10,8 +10,8 @@ This `README` serves as a user guide, providing examples and explanations for ea
 
 Created by: `Raheem Gordon`, `Serena Morris` and `Dontray Blackwood`
 
-### Command Guide 
-
+### Command Guide
+------------------
 
 #### File Operations commands were developed to do the following:
 * `create myfile.txt`: Creates a file called myfile.txt.
